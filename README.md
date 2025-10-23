@@ -1,32 +1,27 @@
 # todo-app-cs3500-2025
-A simple to-do list application built as part of CS3500 – Computer Programming Seminar.  
-Sprint 1 focuses on core CRUD functionality and basic persistence.
+# Personal Portfolio Website
 
----
+## Overview
+A simple portfolio site with a responsive homepage, top nav, projects, and a contact form.
 
-## Features (Sprint 1 Scope)
-- Create a to-do item (title + optional description)
-- Edit title and description
-- Complete/uncomplete (toggle)
-- Delete item
-- Persistence (localStorage or SQLite/API)
+## Sprint 1 Scope (Oct 15–Oct 22, 2025)
+- Responsive homepage layout
+- Top navigation to About, Projects, Contact
+- Projects section with cards
+- Contact form with client-side validation
 
-Stretch (P2/P3):
-- Filter active/completed
-- Basic unit tests
-- Keyboard accessibility
+## How to run
+1. Clone the repo.
+2. Open `index.html` in your browser.
 
----
+## Tech
+- HTML, CSS, JavaScript
+- No backend for this sprint
 
-## Tech Stack
-Frontend: HTML, CSS, JavaScript (or React optional)  
-Persistence: `localStorage` (beginner) or SQLite via Flask/Express (intermediate)
+## Sprint 1 Summary
+Planned 5 days. 4 issues under one milestone. Focus on core layout, projects grid, nav, and a simple contact form.
 
----
-
-## Installation
-```bash
-git clone https://github.com/<your-username>/todo-app-cs3500-2025.git
-cd todo-app-cs3500-2025
-npm install          # if using Node
-pip install -r requirements.txt  # if using Python backend
+## Next sprint ideas
+- Host on GitHub Pages
+- Real form handling
+- More projects and images
